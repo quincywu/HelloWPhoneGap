@@ -45,7 +45,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //device ****
-        $("#info").html('Cordova Version: ' + device.cordova + '<br>');
+        $("#info").html('Cordova Version: ');
+        $("#info").appened(device.cordova + '<br>');
         $("#info").appened(device.model + '<br>');
         $('#info').appened(device.platform + ' ' + device.version + '<br>');
 
