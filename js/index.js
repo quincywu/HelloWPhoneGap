@@ -20,7 +20,6 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        alert("I am an alert box3!");
     },
     // Bind Event Listeners
     //
@@ -35,7 +34,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        alert("I am an alert box4!");
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,13 +45,10 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //device ****
-        $("#info").html("abccc");
-        alert("I am an alert box2!");
-        /*
         $("#info").html('Cordova Version: ' + device.cordova + '<br>');
         $("#info").appened(device.model + '<br>');
         $('#info').appened(device.platform + ' ' + device.version + '<br>');
-*/
+
 
         //camera ***
         /*navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL});
