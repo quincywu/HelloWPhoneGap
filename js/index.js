@@ -46,6 +46,7 @@ var app = {
 
         //device ****
         $("#info").html("abccc");
+        alert("I am an alert box2!");
         /*
         $("#info").html('Cordova Version: ' + device.cordova + '<br>');
         $("#info").appened(device.model + '<br>');
