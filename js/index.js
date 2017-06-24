@@ -46,7 +46,7 @@ var app = {
 
         //device ****
         $("#info").html('Cordova Version: ' + device.cordova + '<br>');
-        $("#info").append(device.model + '<br>');
+        $("#info").appened(device.model + '<br>');
         $('#info').appened(device.platform + ' ' + device.version + '<br>');
 
         console.log('Received Event: ' + id);
