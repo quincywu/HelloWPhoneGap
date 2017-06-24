@@ -45,9 +45,27 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         //device ****
+        $("#info").html("abccc");
+        /*
         $("#info").html('Cordova Version: ' + device.cordova + '<br>');
         $("#info").appened(device.model + '<br>');
         $('#info').appened(device.platform + ' ' + device.version + '<br>');
+*/
+
+        //camera ***
+        /*navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.DATA_URL});
+
+        function onSuccess (imageData) {
+          var image = document.getElementById('myImage');
+          image.src = "data:image/jpeg;base64," + imageData;
+          console.log("image updated");
+        }
+
+        function onFail(message){
+          console.log('Failed because: ' + message);
+        }
+
+        */
 
         console.log('Received Event: ' + id);
     }
