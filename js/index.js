@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        alert("I am an alert box3!");
     },
     // Bind Event Listeners
     //
@@ -34,6 +35,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        alert("I am an alert box4!");
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
