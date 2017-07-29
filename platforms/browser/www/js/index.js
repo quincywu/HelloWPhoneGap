@@ -46,7 +46,7 @@ var app = {
 
         //device ****
         $("#info").html('Cordova Version: ');
-        $("#info").appened(device.cordova + '<br>');
+        //$("#info").appened(device.cordova + '<br>');
         alert(device.cordova);
         $("#info").appened(device.model + '<br>');
         $('#info').appened(device.platform + ' ' + device.version + '<br>');

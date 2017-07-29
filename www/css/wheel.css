@@ -1,0 +1,10 @@
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.container .row
+{
+    padding-top: 100px;
+}
